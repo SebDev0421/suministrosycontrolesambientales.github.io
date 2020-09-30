@@ -1,0 +1,135 @@
+
+.ButtonsMin{
+    display: none;
+}
+
+.HeaderInfo{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    font-size: 15px;
+    color: #999;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.HeaderInfo p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.HeaderButtons{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+
+.HeaderButtons .Buttons{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+
+.HeaderButtons a:hover{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+@media (max-width: 650px){
+
+    .HeaderInfo{
+        width: 100%;
+        display: flex;
+        background-color: white;
+        font-size: 15px;
+        color: #999;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .HeaderInfo p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .HeaderButtons{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    .HeaderButtons .Buttons{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        right: 0px;
+    }
+    
+    .HeaderButtons a:hover{
+        text-decoration: none;
+        color: black;
+        border-bottom: 2px solid black;
+    }
+
+    .HeaderTitle img{
+        display: none;
+    }
+}
+
+
+
+.HeaderTitle{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 3px 5px #999;
+   
+}
+
+
+
+.containerButtoms{
+    margin-left: 10px;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    width: 100;
+    height: 50;
+    border: 2px solid #ffffff;
+    padding: 15px 32px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+

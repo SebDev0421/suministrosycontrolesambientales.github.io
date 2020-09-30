@@ -1,0 +1,79 @@
+.containerInfo{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bodyInfo{
+    width: 75%;
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    transition: all 5s ease-in-out;
+    margin: 70px auto;
+    position: relative;
+
+}
+
+.bodyInfo .closeBtn{
+    position: absolute;
+    top:15px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.bodyInfo .imgMachine{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    width: 30%;
+    height: 95%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.bodyInfo .infoText{
+    position: relative;
+    top:10px;
+    left: 15px;
+    width: 65%;
+    height: 95%;
+}
+
+.infoText .next{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: seagreen;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 2px 2px 3px #999;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.infoText .next:hover{
+    cursor: pointer;
+}
+
+.next img{
+    width: 40px;
+    height: 40px;
+}
+
+.containerInfo .bodyInfo .closeBtn:hover{
+    cursor: pointer;
+}
+

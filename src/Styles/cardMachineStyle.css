@@ -1,0 +1,21 @@
+.card{
+    box-shadow:  -1px 1px #000000;
+    width: 30%;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card .button-view{
+    background-color: aqua;
+    color: white;
+    width: 10%;
+    position: absolute;
+    
+}
+
+.card .button-view:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
